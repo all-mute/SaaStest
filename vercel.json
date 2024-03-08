@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/node"
+      }
+    ],
+    "scripts": {
+      "dev": "npm run dev",
+      "build": "npm run format_check && npm run lint && npm run build && npm run check && npm run test_run",
+      "start": "npm start"
+    }
+  }
+  
